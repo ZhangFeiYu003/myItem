@@ -27,7 +27,7 @@ SPA.defineView('home', {
 	      	// 获得vm对象
 	     	that.vm = that.getVM();
 		    $.ajax({
-		        url: '/api/index.php',
+		        url: '/item/mock/index.json',
 		        type:'get',
 		        data:{
 		        	rtype: 'index'
@@ -79,7 +79,7 @@ SPA.defineView('home', {
           		if (pullUpFlag == 1){
               		setTimeout(function(){
               			$.ajax({
-		        		url: '/api/index.php',
+		        		url: '/item/mock/more.json',
 		        		type:'get',
 		        		data:{
 		        			rtype: 'more'
