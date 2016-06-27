@@ -1,0 +1,24 @@
+<div class="g-index">
+	<div class="g-container">
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch.tabs" data-tag="home">
+				<span></span>
+				<i>首页</i>
+			</li>
+			<li action-type="switch.tabs" data-tag="local">
+				<span></span>
+				<i>本地生活</i>
+			</li>
+			<li action-type="switch.tabs" data-tag="cart">
+				<span></span>
+				<i>购物车</i>
+			</li>
+			<li action-type="my.tabs" data-tag="my">
+				<span></span>
+				<i>我的</i>
+			</li>
+		</ul>
+	</footer>
+</div>

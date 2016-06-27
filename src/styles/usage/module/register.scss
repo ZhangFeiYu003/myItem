@@ -1,0 +1,130 @@
+.g-register{
+	height:100%;
+	width:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	header{
+		height:.52rem;
+		background:#f6f6f6;
+		@include flexbox();
+		div{
+			&:not(:nth-child(2)){
+				width:.52rem;
+				height:100%;
+				@include flexbox();
+				@include justify-content(center);
+	          	@include align-items(center);
+	          	img{
+	          		width:17%;
+	          		margin-left:.05rem;
+	          	}
+	          	i{
+	          		color:#a8a8a8;
+	          		font-size:.16rem;
+	          		margin-left:.05rem;
+	          	}
+			}
+			&:nth-child(2){
+				@include flex(1);
+				@include flexbox();
+				@include justify-content(center);
+	          	@include align-items(center);
+	          	font-size:.2rem;
+	          	font-weight:900;
+			}
+		}
+	}
+	section{
+		@include flex(1);
+		width:100%;
+		padding:.22rem .22rem;
+		.message{
+			@include flexbox();
+			@include flex-direction(column);
+			height:1rem;
+			width:88%;
+			overflow:hidden;
+			@include border-radius(.1rem);
+			@include border(4px 4px 4px 4px,#e0e0e0);
+			div{
+				@include flex(1);
+				width:100%;
+				border:none;
+				background: #fff;
+				@include flexbox();
+				span{
+					height:100%;
+					@include flexbox();
+					@include justify-content(center);
+	          		@include align-items(center);
+	          		&:nth-child(1){
+	          			width:.8rem;
+	          			font-size:.16rem;
+	          			font-weight:600;
+	          			@include flexbox();
+	          			@include justify-content(flex-end);
+	          		}
+	          		&:nth-child(3){
+	          			width:.97rem;
+	          			@include flexbox();
+						@include justify-content(flex-start);
+	          			@include align-items(center);
+	          			i{
+	          				width:.88rem;
+	          				height:.37rem;
+	          				@include flexbox();
+							@include justify-content(center);
+	          				@include align-items(center);
+	          				@include border(2px 2px 2px 2px,#ce1716);
+							@include border-radius(.8rem);
+							color:#ce1716;
+							font-size:.16rem;
+	          			}
+	          		}
+				}
+				input{
+					@include flex(1);
+					width:100%;
+					border:none;
+					height:100%;
+					font-size:.16rem;
+				}
+				&:nth-child(2){
+					border-top:2px solid #e0e0e0;
+				}
+			}
+		}
+		.register_deal{
+			width:100%;
+			height:.50rem;
+			line-height:.40rem;
+			padding-left:.1rem;
+			span{
+				&:nth-child(1){
+					font-size:.15rem;
+					color:#959595;
+				}
+				&:nth-child(2){
+					font-size:.16rem;
+					text-decoration: underline;
+				}
+			}
+		}
+		.btn{
+			width:88%;
+			height:.44rem;
+			background: #ce1817;
+			border:none;
+			font-size:.16rem;
+			color:#fff;
+			@include border-radius(.05rem);
+		}
+		.prompt{
+			width:88%;
+			margin-top:.1rem;
+			padding-right:.1rem;
+			font-size:.16rem;
+			color:#a1a1a1;
+		}
+	}
+}

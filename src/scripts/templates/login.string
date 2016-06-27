@@ -1,0 +1,39 @@
+<div class="g-login">
+	<header>
+		<div action-type="back">
+			<img src="/item/images/btn_back_bg.png">
+			<i>返回</i>
+		</div>
+		<div>登录</div>
+		<div></div>
+	</header>
+	<section>
+		<div class="message">
+			<div>
+				<span><img src="/item/images/usericon.png"></span>
+				<input type="text" placeholder="请输入手机号/账号" class="user">
+			</div>
+			<div>
+				<span><img src="/item/images/pwdicon.png"></span>
+				<input type="password" placeholder="请输入密码" class="pass">
+				<span><img src="/item/images/eye.png"></span>
+			</div>
+		</div>
+		<input class="btn" type="button" value="登录">
+		<div class="login_mode">
+			<span action-type="register.tabs">立即注册</span>
+			<span>手机验证码登录</span>
+		</div>
+		<div class="otherLogin">
+			<div class="login_qq">
+				<img src="/item/images/qqlogin.png">
+				<i>使用QQ登录</i>
+			</div>
+			<span></span>
+			<div class="login_weixin">
+				<img src="/item/images/weixinlogin.png">
+				<i>使用微信登录</i>
+			</div>
+		</div>
+	</section>
+</div>

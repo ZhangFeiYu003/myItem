@@ -1,0 +1,28 @@
+<div class="my_center">
+	<div class="my_head">
+		<div class="head_top">
+			<div></div>
+			<div>
+				<i>设置</i>
+				<span>
+					<img src="/item/images/mymessagecenter_white.png">
+				</span>
+			</div>
+		</div>
+		<div class="head_bottom">
+			<div>
+				<img src="/item/images/new_personal_unlogin_logo.png">
+			</div>
+			<div>
+				<span>GFM13672051332</span>
+				<span>GFM13672051332</span>
+			</div>
+			<div>
+				<span>
+					<img src="/item/images/new_personal_checkin_logo.png">
+					<i>已签到</i>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>

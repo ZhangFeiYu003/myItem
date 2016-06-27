@@ -1,0 +1,34 @@
+<div class="g-register">
+	<header>
+		<div action-type="back">
+			<img src="/item/images/btn_back_bg.png">
+			<i>返回</i>
+		</div>
+		<div>手机号快速注册</div>
+		<div></div>
+	</header>
+	<section>
+		<div class="message">
+			<div>
+				<span>手机号：</span>
+				<input type="text" placeholder="请输入手机号/账号" class="user">
+				<span><i>获取密码</i></span>
+			</div>
+			<div>
+				<span>密码：</span>
+				<input type="password" placeholder="请输入密码" class="pass">
+			</div>
+		</div>
+		<div class="register_deal">
+			<span>注册即视为您已同意</span>
+			<span>高一品服务协议</span>
+		</div>
+		<input class="btn" action-type="regis" type="button" value="确定注册">
+		<div class="prompt">
+			<p>提示:</p>
+			<p>1.输入手机号，点击获取密码后，系统会自动下发一条默认密码短信；</p>
+			<p>2.正确输入短信密码后，点击立即注册即可马上拥有您的高一品账号；</p>
+			<p>3.使用手机号注册免费，注册过程中不会产生任何费用。</p>
+		</div>	
+	</section>
+</div>

@@ -1,0 +1,150 @@
+<div class="g-home">
+	<header>
+		<ul>
+			<li>
+				<img src="/item/images/logo.png">
+			</li>
+			<li>
+				<ul>
+					<li>
+						<img src="/item/images/search.png">
+					</li>
+					<li>
+						<span>搜索感兴趣的商品/店铺</span>
+					</li>
+					<li>
+						<img src="/item/images/homesearchnormal.png">
+					</li>
+				</ul>
+			</li>
+			<li>
+				<img src="/item/images/mymessagecenter.png">
+			</li>
+		</ul>
+	</header>
+	<section spa-widget="scroll" data-scroll-id="homeHotScroll">
+		<div id="scroller">
+			<div class="scroll_head">
+				下拉刷新
+			</div>
+			<div class="swiper-container banner">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide" ms-repeat-value="swiper">
+				    	<img  ms-src="value.imgsrc">
+				    </div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li>
+						<span>
+							<img src="">
+						</span>
+						<i>类目</i>
+					</li>
+					<li>
+						<span>
+							<img src="">
+						</span>
+						<i>海外购</i>
+					</li>
+					<li>
+						<span>
+							<img src="">
+						</span>
+						<i>农村电商</i>
+					</li>
+					<li>
+						<span>
+							<img src="">
+						</span>
+						<i>人人分销</i>
+					</li>
+					<li>
+						<span>
+							<img src="">
+						</span>
+						<i>一品夺宝</i>
+					</li>
+				</ul>
+			</div>
+			<div class="selection">
+				<div class="head">
+					<img src="/item/images/img_01.jpg">
+					<span>精选品类</span>
+				</div>
+				<ul ms-repeat-value="selection">
+					<li>
+						<img ms-src="value.data1.imgsrc">
+					</li>
+					<li>
+						<img ms-src="value.data2.imgsrc">
+					</li>
+					<li>
+						<img ms-src="value.data3.imgsrc">
+					</li>
+				</ul>
+			</div>
+			<div class="o2o">
+				<img src="/item/images/img_08.jpg">
+			</div>
+			<div class="classify" ms-repeat-value="classify">
+				<div class="head">
+					<span><img ms-src="value.imgsrc"><span ms-style="value.color" ms-text="value.spanTitle"></span></span>
+					<i ms-text="value.iTitle"></i>
+				</div>
+				<ul>
+					<li>
+						<img ms-src="value.data1.imgsrc">
+	
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img ms-src="value.data2.imgsrc">
+							</li>
+							<li>
+								<img ms-src="value.data3.imgsrc">
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<img ms-src="value.data4.imgsrc">
+					</li>
+					<li>
+						<img ms-src="value.data5.imgsrc">
+					</li>
+					<li>
+						<img ms-src="value.data6.imgsrc">
+					</li>
+				</ul>
+			</div>
+			<div class="newGood">
+				<div class="head">
+					<img src="/item/images/img_44.jpg">
+					<span>热销新品</span>
+				</div>
+				<ul  ms-repeat-value="newGood">
+					<li>
+						<img ms-src="value.data1.imgsrc">
+						<span ms-text="value.data1.title"></span>
+						<span ms-text="value.data1.price"></span>
+					</li>
+					<li></li>
+					<li>
+						<img ms-src="value.data2.imgsrc">
+						<span ms-text="value.data2.title"></span>
+						<span ms-text="value.data2.price"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="scroll_foot">
+				上拉加载
+			</div>
+		</div>
+	</section>
+</div>

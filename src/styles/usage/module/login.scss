@@ -1,0 +1,138 @@
+.g-login{
+	height:100%;
+	width:100%;
+	@include flexbox();
+	@include flex-direction(column);
+	header{
+		height:.52rem;
+		background:#f6f6f6;
+		@include flexbox();
+		div{
+			&:not(:nth-child(2)){
+				width:.52rem;
+				height:100%;
+				@include flexbox();
+				@include justify-content(center);
+	          	@include align-items(center);
+	          	img{
+	          		width:17%;
+	          		margin-left:.05rem;
+	          	}
+	          	i{
+	          		color:#a8a8a8;
+	          		font-size:.16rem;
+	          		margin-left:.05rem;
+	          	}
+			}
+			&:nth-child(2){
+				@include flex(1);
+				@include flexbox();
+				@include justify-content(center);
+	          	@include align-items(center);
+	          	font-size:.2rem;
+	          	font-weight:900;
+			}
+		}
+	}
+	section{
+		@include flex(1);
+		width:100%;
+		padding:.22rem .22rem;
+		.message{
+			@include flexbox();
+			@include flex-direction(column);
+			height:1rem;
+			width:88%;
+			overflow:hidden;
+			@include border(4px 4px 4px 4px,#e0e0e0);
+			@include border-radius(.05rem);
+			div{
+				@include flex(1);
+				width:100%;
+				border:none;
+				background: #fff;
+				@include flexbox();
+				span{
+					width:.44rem;
+					height:100%;
+					@include flexbox();
+					@include justify-content(center);
+	          		@include align-items(center);
+					img{
+						width:65%;
+					}
+				}
+				input{
+					@include flex(1);
+					width:100%;
+					border:none;
+					height:100%;
+					font-size:.16rem;
+				}
+				&:nth-child(2){
+					border-top:2px solid #e0e0e0;
+					span{
+						&:nth-child(3){
+							@include justify-content(flex-start);
+						}
+					}
+				}
+			}
+		}
+		.btn{
+			width:88%;
+			margin-top:.2rem;
+			height:.44rem;
+			background: #ce1817;
+			border:none;
+			font-size:.18rem;
+			color:#fff;
+			@include border-radius(.05rem);
+		}
+		.login_mode{
+			height:.42rem;
+			line-height: .42rem;
+			@include flexbox();
+			span{
+				@include flex(1);
+				color:#cd1110;
+				font-size:.17rem;
+				&:nth-child(1){
+					padding-left:.1rem;
+				}
+				&:nth-child(2){
+					padding-right:.1rem;
+				}
+			}
+		}
+		.otherLogin{
+			margin-top:.2rem;
+			height:.94rem;
+			width:88%;
+			@include flexbox();
+			div{
+				@include flex(1);
+				height:100%;
+				background: #fff;
+				@include flexbox();
+				@include flex-direction(column);
+				@include justify-content(center);
+	          	@include align-items(center);
+				img{
+					display:block;
+					width:27%;
+				}
+				i{
+					color:#8e8e8e;
+					font-size:.14rem;
+					margin-top:.07rem;
+				}
+			}
+			span{
+	          		display:block;
+	          		width:.02rem;
+	          		height:100%;
+	        }
+		}
+	}
+}
